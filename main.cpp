@@ -15,7 +15,7 @@ int main(){
     cin>>L;
     Genero Genero(G,0);
     Lenguaje Lenguaje(0,L);
-    Preferencia GyL(Genero.getGenero(),Lenguaje.getLenguaje());
     Comparacion obj1;
     obj1.Cancion(Genero.getGenero(),Lenguaje.getLenguaje());
+    
 }
