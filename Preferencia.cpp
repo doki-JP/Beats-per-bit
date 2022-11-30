@@ -7,19 +7,14 @@ Preferencia::Preferencia(){
     Genero=0;
     Lenguaje=0;
 };
+void Preferencia::setLenguaje(int L){
+    Lenguaje=L;
+}
 Preferencia::Preferencia(int GP,int LP){
     Genero=GP;
-    Lenguaje=LP;   
+    Lenguaje=LP;  
 }
 int Preferencia::getLenguaje(){
     return Lenguaje;
-}
-int Preferencia::getGenero(){
-    return Genero;
-}
-void Preferencia::setGenero(int GP){
-    Genero=GP;
-}
-void Preferencia::setLenguaje(int LP){
-    Lenguaje=LP;
-}
+};
+Preferencia obj; 
