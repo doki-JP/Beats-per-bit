@@ -11,4 +11,4 @@ Preferencia::Preferencia(int GP,int LP){
     Genero=GP;
     Lenguaje=LP;  
 }
-Preferencia obj; 
+Preferencia obj;
