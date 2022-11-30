@@ -1,0 +1,61 @@
+Sub competencia:Toma de decisiones
+Componente: Diseño clases sencillas completas:
+Error: No se utilizaban varios métodos y eran basura.
+Cambio:
+	Seguí las reglas de codificacion y definicion de clases, al igual que respete las relaciones que tienen entre ellas, así para
+	poder optimizar mi código y eliminar clases basura
+
+
+Subcompetencia: Toma de decisiones
+Componente: Utilizo el concepto de herencia 
+Error: No se implementó nada
+Cambio:
+	Creación tanto en código como en UML dos clases hijas (Genero y Lenguaje) que heredan constructores para asignarse valores
+
+Subcompetencia: Toma de decisiones
+Componente: Utilizo el concepto de composición/agregación
+Error: No había agregación, se utilizaban relaciones de uso
+Cambio:
+	Nueva UML y código en donde se utiliza agregación para poder generar nuevos valores en Comparación
+
+Subcompetencia: Toma de decisiones
+Componente: Implemento las clases en c++ siguiendo el diseño del diagrama
+Error: No había tantas similitudes entre el UML y el código
+Cambio:
+	Creación de un nuevo UML y adaptacion del código de acuerdo a ello
+
+Subcompetencia: Implementa
+componente: coodificó,métodos...
+Error: Había bastantes métodos basura que dificultaban el funcionamiento del código
+Cambio:
+	Cree los métodos necesarios al igual que sus atributos, optimicé este apartado y solo se conservaron los métodos necesarios.
+
+Subcompetencia: implementa
+componente: Compruebo el acceso..
+Error: No estaba presente de una forma notable
+Cambio:
+	Utilicé getters/setters y constructores para asegurarme de que los atributos son accesibles siempre y cuando sean utilizados por objetos.
+
+subcompetencia: implementa
+componente: implemento composición/agregación
+Error: No se había implementado bien dentro del proyecto
+Cambio: Implementacion necesaria entre Comparación y Preferencia, Preferencia tiene métodos para editarse a sí mismo, métodos
+	que un obj de tipo Preferencias edita a través de Comparación el leguaje seleccionado.
+
+subcompetencia: implementa
+componente: implemento clases apegadas...
+Error: No se siguió de una manera congruente el UML
+Cambio:	
+	Con la elaboración del nuevo UML, me aseguré de que fueran practicamente uno mismo.
+
+subcompetencia: estándares
+componentes: Cumplo con estadares en mi repositorio..
+Error: El código estaba repleto de lineas basura
+Cambio:
+	Optimización del código, sigue estándares como sangrías y nombres representativos, además de retirar código basura
+
+subcompetencia: Tecnologías
+componente: Guardo correctamente avances en commits
+Error: Reemplazaba varios achivos de forma que no se guardaban algunos avances
+Cambio:
+	Todo avance cuenta con su respectivo commit, que son accesibles en la pestaña historial del repositorio
