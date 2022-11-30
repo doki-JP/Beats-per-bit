@@ -4,13 +4,9 @@
 
 class Comparacion{
     private:
-        Preferencia Gusto;
+        Preferencia pref(int,int);
     public:
-        Comparacion();
         string Cancion(int,int);
-        int getGenero();
-        int getLenguaje();
-        void setLenguaje(int);
-        void setGenero(int);
+       
 };
 #endif
