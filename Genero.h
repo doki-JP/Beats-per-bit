@@ -11,5 +11,4 @@ class Genero:public Preferencia{
         Genero(int GP,int L);
         int getGenero();
 };
-
 #endif
