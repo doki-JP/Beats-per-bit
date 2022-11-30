@@ -8,7 +8,3 @@ Genero::Genero(int GP, int LP):Preferencia(GP,LP){
 int Genero::getGenero(){
     return GeneroPreferido;
 }
-
-void Genero::setGenero(int GP){
-    GeneroPreferido=GP;
-}
