@@ -4,9 +4,8 @@
 
 class Comparacion{
     private:
-        Preferencia pref(int,int);
+        Preferencia preferencia;
     public:
         string Cancion(int,int);
-       
 };
 #endif
