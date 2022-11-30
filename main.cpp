@@ -17,5 +17,4 @@ int main(){
     Lenguaje Lenguaje(0,L);
     Comparacion obj1;
     obj1.Cancion(Genero.getGenero(),Lenguaje.getLenguaje());
-    
 }
