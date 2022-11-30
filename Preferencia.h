@@ -11,6 +11,5 @@ class Preferencia{
         Preferencia();
         Preferencia(int,int);
         int Idiom(int,int);
-
 };
 #endif
