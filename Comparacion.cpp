@@ -1,6 +1,5 @@
 #include "Comparacion.h"
 #include <iostream>
-
 int Preferencia::Idiom(int L,int Len){
     if (Len==0){}
     else if(Len==1){
