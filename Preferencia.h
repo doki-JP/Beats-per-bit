@@ -3,16 +3,16 @@
 #include <sstream>
 #include <string>
 using namespace std;
-
 class Preferencia{
     private:
         int Genero;
-
+        int Lenguaje;
     public:
         Preferencia();
-        Preferencia(int);
-        void setGenero(int);
+        Preferencia(int,int);
         int getGenero();
+        int getLenguaje();
+        void setGenero(int);
+        void setLenguaje(int);
 };
-
 #endif
