@@ -10,7 +10,6 @@ class Genero:public Preferencia{
         Genero();
         Genero(int GP,int L);
         int getGenero();
-        void setGenero(int);
 };
 
 #endif
