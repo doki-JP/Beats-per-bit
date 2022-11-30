@@ -1,15 +1,21 @@
 #include <iostream>
-#include "Similitud.h"
+#include "Comparacion.cpp"
+#include "Genero.cpp"
+#include "Lenguaje.cpp"
 using namespace std;
 
 int main(){
-    Preferencia obj;
-    Similitud obj2;
-    obj.setGenero(-34978); //Numero inicial(-34978), 
-                          //facilita el proceso de set y el uso de ciclos
-
-    obj2.Cancion(obj.getGenero());
-    //usa el obj para llamar un getter que regresa un valor, ese valor se utiliza
-    //en el método "Cancion" que funciona gracias a obj2
-
+    cout<<"Bienvenid@ a Beats per bit"<<endl;
+    cout<<"Para empezar, Que genero te gusta mas?\nLas opciones son:"<<endl;
+    cout<<"1. Pop\n2. Rap\n3. EDM\n4.Alternativo\nSeleccion: ";
+    int G;
+    cin>>G;
+    cout<<"Que tal el lenguaje? Te gusta mas en Ingles o Espanol?\n0. Ingles\n1. Espanol\nSeleccion: ";
+    int L;
+    cin>>L;
+    Genero Genero(G,0);
+    Lenguaje Lenguaje(0,L);
+    Preferencia GyL(Genero.getGenero(),Lenguaje.getLenguaje());
+    Comparacion obj1;
+    obj1.Cancion(Genero.getGenero(),Lenguaje.getLenguaje());
 }
