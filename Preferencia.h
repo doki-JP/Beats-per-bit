@@ -10,9 +10,7 @@ class Preferencia{
     public:
         Preferencia();
         Preferencia(int,int);
-        int getGenero();
-        int getLenguaje();
-        void setGenero(int);
-        void setLenguaje(int);
+        int Idiom(int,int);
+
 };
 #endif
