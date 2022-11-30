@@ -9,7 +9,6 @@ class Lenguaje:public Preferencia{
         Lenguaje();
         Lenguaje(int GP, int L);
         int getLenguaje();
-        void setLenguaje(int);
 };
 
 #endif
