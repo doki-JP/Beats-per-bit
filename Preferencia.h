@@ -5,11 +5,12 @@
 using namespace std;
 class Preferencia{
     private:
-        int Genero;
-        int Lenguaje;
+        int GeneroP;
+        int LenguajeP;
     public:
         Preferencia();
         Preferencia(int,int);
         int Idiom(int,int);
+
 };
 #endif
